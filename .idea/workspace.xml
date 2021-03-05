@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f9fda07-1d37-490f-afcd-0c7dad22c9ae" name="Default Changelist" comment="" />
+    <list default="true" id="9f9fda07-1d37-490f-afcd-0c7dad22c9ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/display.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/display.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/update_customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/update_customer.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1pIxBBZjSfb17pmMub6WHzVDLMK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +28,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -49,10 +63,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="369" y="95" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614968794612" />
-    <state x="395" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1614891748396">
+    <state x="395" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1614970060252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="299" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1614891748396" />
+    <state x="395" y="299" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1614970060252" />
     <state x="483" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1614897412500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

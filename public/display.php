@@ -8,7 +8,6 @@
 <a href="../index.php">Home</a>
 <?php include "./templates/footer.php"; ?>
 
-
 <?php
 if (isset($_POST['submit'])) {
     require "../config.php";
@@ -22,17 +21,14 @@ if (isset($_POST['submit'])) {
     catch (PDOException $error) {
         echo $error->getMessage();
         }
-    }
-?>
 
-<?php
-if (isset($_POST['submit'])) {
-  if ($result && $statement->rowCount() > 0) { ?>
+    if ($result && $statement->rowCount() > 0) {
+?>
     <h2>Customers details</h2>
     <table>
       <thead>
         <tr>
-          <th>#</th>
+          <th>
           <th>First Name</th>
           <th>Last Name</th>
           <th>Email</th>
@@ -49,7 +45,12 @@ if (isset($_POST['submit'])) {
       <?php } ?>
       </tbody>
     </table>
-  <?php } else { ?>
-    > No results found for <?php echo $_POST['lastname']; ?>
-  <?php }
-} ?>
+  <?php
+  }
+  else {
+  ?>
+  No results found for <?php echo $_POST['lastname']; ?>
+  <?php
+  }
+}
+?>

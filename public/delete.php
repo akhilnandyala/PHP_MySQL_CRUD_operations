@@ -4,14 +4,12 @@ require "../config.php";
 if (isset($_GET["id"])) {
   try {
     $connection = new PDO($dsn, $username, $password, $options);
-    $id = $_GET["id"];
-    $sql = "DELETE FROM customer WHERE id = :id";
-    $statement = $connection->prepare($sql);
-    $statement->bindValue(':id', $id);
-    $statement->execute();
-    $success = "User successfully deleted";
-  } catch(PDOException $error) {
-    echo $sql . "<br>" . $error->getMessage();
+    $customer_id = $_GET["id"];
+    $sql = "DELETE FROM customer WHERE `id` = '$customer_id'";
+    $connection->exec($sql);
+  }
+  catch(PDOException $error) {
+    echo $error->getMessage();
   }
 }
 
@@ -31,7 +29,7 @@ catch (PDOException $error) {
 <table>
   <thead>
     <tr>
-      <th>#</th>
+      <th>
       <th>First Name</th>
       <th>Last Name</th>
       <th>Email</th>

@@ -16,7 +16,7 @@ catch (PDOException $error) {
 <table>
   <thead>
     <tr>
-      <th>#</th>
+      <th>
       <th>First Name</th>
       <th>Last Name</th>
       <th>Email</th>
